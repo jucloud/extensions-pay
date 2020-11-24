@@ -6,7 +6,7 @@ use JuCloud\Extensions\Pay\Events;
 use JuCloud\Extensions\Pay\Exceptions\GatewayException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidArgumentException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
-use JuCloud\Extensions\Supports\Collection;
+use JuCloud\Core\Supports\Collection;
 
 class PosGateway extends Gateway
 {

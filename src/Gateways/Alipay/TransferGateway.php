@@ -7,7 +7,7 @@ use JuCloud\Extensions\Pay\Events;
 use JuCloud\Extensions\Pay\Exceptions\GatewayException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidConfigException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
-use JuCloud\Extensions\Supports\Collection;
+use JuCloud\Core\Supports\Collection;
 
 class TransferGateway implements GatewayInterface
 {

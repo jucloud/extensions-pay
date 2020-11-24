@@ -7,8 +7,8 @@ use JuCloud\Extensions\Pay\Events;
 use JuCloud\Extensions\Pay\Exceptions\GatewayException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidArgumentException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
-use JuCloud\Extensions\Supports\Collection;
-use JuCloud\Extensions\Supports\Str;
+use JuCloud\Core\Supports\Collection;
+use JuCloud\Core\Supports\Str;
 
 class MpGateway extends Gateway
 {

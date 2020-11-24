@@ -9,7 +9,6 @@ use JuCloud\Extensions\Pay\Gateways\Alipay;
 use JuCloud\Extensions\Pay\Gateways\Wechat;
 use JuCloud\Extensions\Pay\Listeners\KernelLogSubscriber;
 use JuCloud\Core\Supports\Config;
-use JuCloud\Core\Supports\Log;
 use JuCloud\Core\Supports\Logger;
 use JuCloud\Core\Supports\Str;
 

@@ -10,7 +10,7 @@ use JuCloud\Extensions\Pay\Exceptions\GatewayException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidArgumentException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
 use JuCloud\Extensions\Pay\Gateways\Wechat;
-use JuCloud\Extensions\Supports\Str;
+use JuCloud\Core\Supports\Str;
 
 class AppGateway extends Gateway
 {

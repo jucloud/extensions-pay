@@ -10,11 +10,11 @@ use JuCloud\Extensions\Pay\Exceptions\InvalidConfigException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
 use JuCloud\Extensions\Pay\Gateways\Alipay;
 use JuCloud\Extensions\Pay\Log;
-use JuCloud\Extensions\Supports\Arr;
-use JuCloud\Extensions\Supports\Collection;
-use JuCloud\Extensions\Supports\Config;
-use JuCloud\Extensions\Supports\Str;
-use JuCloud\Extensions\Supports\Traits\HasHttpRequest;
+use JuCloud\Core\Supports\Arr;
+use JuCloud\Core\Supports\Collection;
+use JuCloud\Core\Supports\Config;
+use JuCloud\Core\Supports\Str;
+use JuCloud\Core\Supports\Traits\HasHttpRequest;
 
 /**
  * @author yansongda <me@yansongda.cn>

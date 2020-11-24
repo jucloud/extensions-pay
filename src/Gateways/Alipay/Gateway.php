@@ -4,7 +4,7 @@ namespace JuCloud\Extensions\Pay\Gateways\Alipay;
 
 use JuCloud\Extensions\Pay\Contracts\GatewayInterface;
 use JuCloud\Extensions\Pay\Exceptions\InvalidArgumentException;
-use JuCloud\Extensions\Supports\Collection;
+use JuCloud\Core\Supports\Collection;
 
 abstract class Gateway implements GatewayInterface
 {

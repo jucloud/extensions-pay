@@ -8,7 +8,7 @@ use JuCloud\Extensions\Pay\Exceptions\InvalidArgumentException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidConfigException;
 use JuCloud\Extensions\Pay\Exceptions\InvalidSignException;
 use JuCloud\Extensions\Pay\Gateways\Alipay;
-use JuCloud\Extensions\Supports\Collection;
+use JuCloud\Core\Supports\Collection;
 
 class PosGateway extends Gateway
 {
